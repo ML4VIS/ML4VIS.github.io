@@ -19,4 +19,4 @@ Inspired by the great success of machine learning (ML), researchers have applied
 This interactive survey will continue to be updated to reflect future advancements.
 Your contribution is highly appreciated!
 To suggest new related papers,
-please create an issues in this repo and use the `Suggest new ML4VIS papers` template.
+please [create an issues](https://github.com/ML4VIS/ML4VIS.github.io/issues/new/choose) in this repo and use the `Suggest new ML4VIS papers` template.
