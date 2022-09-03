@@ -2,12 +2,13 @@
 Qianwen Wang, Zhutian Chen, Yong Wang, Huamin Qu
 
 This github repo hosts a web-based interactive browser of our survey on ML4VIS at https://ml4vis.github.io.  
+This survey is published at IEEE Transactions on Visualization and Computer Graphics, [link](https://ieeexplore.ieee.org/document/9523770).
 A preprint of this survey is available at https://arxiv.org/abs/2012.00467
 
 We are continuing to update this interactive survey browser. You can switch between the version used in the survey paper and the latest version including more ML4VIS papers.  
 Contributions are wellcome! Read more about [how to contribute](#how-to-contribute)
 
-![image](https://user-images.githubusercontent.com/19774198/123357814-422c0c80-d538-11eb-8a79-96e0a0ce9e83.png)
+https://user-images.githubusercontent.com/19774198/188285436-214f4503-db35-4493-9115-7a398b40dace.mp4
 
 **Abstract**
 
@@ -15,12 +16,12 @@ Inspired by the great success of machine learning (ML), researchers have applied
 
 ### Cite this survey
 ```
-@article{wang2020applying,
-  title={Applying Machine Learning Advances to Data Visualization: A Survey on ML4VIS},
+@ARTICLE{wang2020applying,
   author={Wang, Qianwen and Chen, Zhutian and Wang, Yong and Qu, Huamin},
-  journal={arXiv preprint arXiv:2012.00467},
-  year={2020}
-}
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={A Survey on ML4VIS: Applying MachineLearning Advances to Data Visualization}, 
+  year={2021},
+  doi={10.1109/TVCG.2021.3106142}}
 ```
 ### How to contribute
 This interactive survey webpage will continue to be updated to reflect future advancements.  
