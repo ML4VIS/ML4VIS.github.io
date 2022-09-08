@@ -42,11 +42,10 @@ export function TopBar(props: Props) {
         >
           <MenuIcon />
         </IconButton>
-        <Typography className={classes.title} variant="h6" noWrap>
+        <Typography variant="h6" noWrap>
           ML4VIS
         </Typography>
 
-        <div className={classes.grow} />
         <div className={classes.sectionDesktop}>
           {/* <IconButton aria-label="show 4 new mails" color="inherit">
             <Badge badgeContent={4} color="secondary">

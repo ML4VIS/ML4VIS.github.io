@@ -14,14 +14,6 @@ export const useStyles = makeStyles((theme: Theme) =>
               display: 'none',
             },
         },
-        title: {
-            display: 'none',
-            [theme.breakpoints.up('sm')]: {
-                display: 'block',
-            },
-        },
-
-
         sectionDesktop: {
             display: 'none',
             [theme.breakpoints.up('md')]: {
