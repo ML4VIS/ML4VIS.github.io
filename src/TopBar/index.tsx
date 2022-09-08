@@ -11,7 +11,7 @@ import {
   // AccountCircle,
   // Notifications as NotificationsIcon,
   // Mail as MailIcon,
-  // Menu as MenuIcon,
+  Menu as MenuIcon,
   // Search as SearchIcon,
   CloudUpload,
   Description,
@@ -22,16 +22,26 @@ import { useStyles } from "./style";
 
 interface Props {
   menuId: string;
+  handleDrawerToggle: () => void;
   onProfileMenuOpen: (e: React.MouseEvent<HTMLElement>) => void;
 }
 
 export function TopBar(props: Props) {
   const classes = useStyles();
-  const { menuId, onProfileMenuOpen } = props;
+  const { menuId, onProfileMenuOpen, handleDrawerToggle } = props;
 
   return (
     <AppBar position="fixed" className={classes.appBar}>
       <Toolbar>
+        <IconButton
+          color="inherit"
+          aria-label="open drawer"
+          edge="start"
+          onClick={handleDrawerToggle}
+          className={classes.menuButton}
+        >
+          <MenuIcon />
+        </IconButton>
         <Typography className={classes.title} variant="h6" noWrap>
           ML4VIS
         </Typography>

@@ -10,6 +10,9 @@ export const useStyles = makeStyles((theme: Theme) =>
         },
         menuButton: {
             marginRight: theme.spacing(2),
+            [theme.breakpoints.up('sm')]: {
+              display: 'none',
+            },
         },
         title: {
             display: 'none',
