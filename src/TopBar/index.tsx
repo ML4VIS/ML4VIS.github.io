@@ -42,21 +42,11 @@ export function TopBar(props: Props) {
         >
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" noWrap>
+        <Typography variant="h6" noWrap className={classes.title}>
           ML4VIS
         </Typography>
 
         <div className={classes.sectionDesktop}>
-          {/* <IconButton aria-label="show 4 new mails" color="inherit">
-            <Badge badgeContent={4} color="secondary">
-              <MailIcon />
-            </Badge>
-          </IconButton>
-          <IconButton aria-label="show 17 new notifications" color="inherit">
-            <Badge badgeContent={17} color="secondary">
-              <NotificationsIcon />
-            </Badge>
-          </IconButton> */}
           <IconButton
             edge="end"
             aria-label="link to arxiv paper"
@@ -64,7 +54,7 @@ export function TopBar(props: Props) {
             onClick={()=>window.open("https://arxiv.org/abs/2012.00467")}
             color="inherit"
           >
-            <Description /> <span style={{fontSize: '12px'}}>Preprint </span>
+            <Description /> <span style={{fontSize: '12px'}} className={classes.iconName}>{' '}Preprint </span>
           </IconButton>
           <IconButton
             edge="end"
@@ -73,7 +63,7 @@ export function TopBar(props: Props) {
             onClick={()=>window.open("https://github.com/ML4VIS/ML4VIS.github.io")}
             color="inherit"
           >
-            <GitHub /> <span style={{fontSize: '12px'}}>{' '}Github </span>
+            <GitHub /> <span style={{fontSize: '12px'}} className={classes.iconName}>{' '}Github </span>
           </IconButton>
           <IconButton
             edge="end"
@@ -82,7 +72,7 @@ export function TopBar(props: Props) {
             onClick={()=>window.open("https://github.com/ML4VIS/ML4VIS.github.io/issues/new?assignees=&labels=enhancement&template=suggest-new-ml4vis-papers.md&title=Suggest+Paper%3A+%5Bpaper+title%5D")}
             color="inherit"
           >
-            <CloudUpload />  <span style={{fontSize: '12px'}}> {' '}Contribute </span>
+            <CloudUpload />  <span style={{fontSize: '12px'}} className={classes.iconName}> {' '}Contribute </span>
           </IconButton>
         </div>
       </Toolbar>

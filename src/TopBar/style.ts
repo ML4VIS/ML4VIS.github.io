@@ -14,11 +14,20 @@ export const useStyles = makeStyles((theme: Theme) =>
               display: 'none',
             },
         },
+        title: {
+            flexGrow: 1,
+          },
         sectionDesktop: {
+            // display: 'none',
+            // [theme.breakpoints.up('md')]: {
+            //     display: 'flex',
+            // },
+        },
+        iconName: {
             display: 'none',
             [theme.breakpoints.up('md')]: {
-                display: 'flex',
-            },
-        },
+                display: 'inherit',
+              },
+        }
     })
 );
