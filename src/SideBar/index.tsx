@@ -168,6 +168,7 @@ export function SideBar(props: Props) {
       onClose={handleClose}
     >
       <MenuItem onClick={() => window.open("https://arxiv.org/pdf/2102.01330")}>Survey on Artificial Intelligence Approaches for Visualization Data</MenuItem>
+      <MenuItem onClick={()=>window.open("https://arxiv.org/abs/2204.06504")}>DL4SciVis: A State-of-the-Art Survey on Deep Learning for Scientific Visualization</MenuItem>
       <MenuItem onClick={() => window.open("https://www.sciencedirect.com/science/article/pii/S2468502X20300292")}>A survey on automatic infographics and visualization recommendations</MenuItem>
     </Menu>
   </div>
