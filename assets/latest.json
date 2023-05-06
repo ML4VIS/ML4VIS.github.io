@@ -1004,64 +1004,107 @@
         "url": "https://arxiv.org/abs/2107.12548",
         "venue": "VIS",
         "year": 2021,
-        "VIS": ["Data-VIS Mapping"],
-        "ML": ["Regression"]
+        "VIS": [
+            "Data-VIS Mapping"
+        ],
+        "ML": [
+            "Regression"
+        ]
     },
     {
         "name": "MultiVision: Designing Analytical Dashboards with Deep Learning Based Recommendation",
         "url": "https://arxiv.org/abs/2107.07823",
         "venue": "VIS",
         "year": 2021,
-        "VIS": ["Data-VIS Mapping"],
-        "ML": ["Regression"]
+        "VIS": [
+            "Data-VIS Mapping"
+        ],
+        "ML": [
+            "Regression"
+        ]
     },
     {
         "name": "InfoColorizer: Interactive Recommendation of Color Palettes for Infographics",
         "url": "https://arxiv.org/abs/2107.07823",
         "venue": "VIS",
         "year": 2021,
-        "VIS": ["Style Imitation"],
-        "ML": ["Generative"]
+        "VIS": [
+            "Style Imitation"
+        ],
+        "ML": [
+            "Generative"
+        ]
     },
     {
         "name": "ChartSeer: Interactive Steering Exploratory Visual Analysis with Machine Intelligence",
         "url": "https://github.com/jeffjianzhao/ChartSeer",
         "venue": "VIS",
         "year": 2021,
-        "VIS": ["Data-VIS Mapping", "VIS Interaction"],
-        "ML": ["Generative"]
+        "VIS": [
+            "Data-VIS Mapping",
+            "VIS Interaction"
+        ],
+        "ML": [
+            "Generative"
+        ]
     },
     {
         "name": "Joint t-SNE for Comparable Projections of Multiple High-Dimensional Datasets",
         "url": "http://www.yunhaiwang.net/Vis2021/joint-tsne/",
         "venue": "VIS",
         "year": 2021,
-        "VIS": ["Data Processing4VIS"],
-        "ML": ["Dimension Reduction"]
+        "VIS": [
+            "Data Processing4VIS"
+        ],
+        "ML": [
+            "Dimension Reduction"
+        ]
     },
     {
         "name": "Interactive Visual Pattern Search on Graph Data via Graph Representation Learning",
         "url": "https://ieeexplore.ieee.org/document/9552902",
         "venue": "VIS",
         "year": 2021,
-        "VIS": ["VIS Interaction"],
-        "ML": ["Regression"]
+        "VIS": [
+            "VIS Interaction"
+        ],
+        "ML": [
+            "Regression"
+        ]
     },
     {
         "name": "Shape-driven Coordinate Ordering for Star Glyph Sets via Reinforcement Learning",
         "url": "https://arxiv.org/abs/2103.02380",
         "venue": "VIS",
         "year": 2021,
-        "VIS": ["VIS Reading"],
-        "ML": ["Reinforcement"]
+        "VIS": [
+            "VIS Reading"
+        ],
+        "ML": [
+            "Reinforcement"
+        ]
     },
     {
         "name": "Natural Language to Visualization by Neural Machine Translation",
         "url": "https://ieeevis.b-cdn.net/vis_2021/pdfs/v-full-1419.pdf",
         "venue": "VIS",
         "year": 2021,
-        "VIS": ["Data-VIS Mapping"],
-        "ML": ["Classification"]
+        "VIS": [
+            "Data-VIS Mapping"
+        ],
+        "ML": [
+            "Classification"
+        ]
+    },
+    {
+        "name": "Learned Data-aware Image Representations of Line Charts for Similarity Search",
+        "venue": "SIGMOD",
+        "year": 2023,
+        "VIS": [
+            "VIS Reading"
+        ],
+        "ML": [
+            "Dimension Reduction"
+        ]
     }
-    
 ]
