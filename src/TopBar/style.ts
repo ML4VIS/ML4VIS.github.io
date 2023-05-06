@@ -10,20 +10,24 @@ export const useStyles = makeStyles((theme: Theme) =>
         },
         menuButton: {
             marginRight: theme.spacing(2),
+            [theme.breakpoints.up('sm')]: {
+              display: 'none',
+            },
         },
         title: {
-            display: 'none',
-            [theme.breakpoints.up('sm')]: {
-                display: 'block',
-            },
-        },
-
-
+            flexGrow: 1,
+          },
         sectionDesktop: {
+            // display: 'none',
+            // [theme.breakpoints.up('md')]: {
+            //     display: 'flex',
+            // },
+        },
+        iconName: {
             display: 'none',
             [theme.breakpoints.up('md')]: {
-                display: 'flex',
-            },
-        },
+                display: 'inherit',
+              },
+        }
     })
 );

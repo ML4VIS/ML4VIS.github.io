@@ -51,12 +51,17 @@ export default function App() {
   const [searchKey, setSearchKey] = useState('');
   const [version, setVersion] = useState(defaultVersion);
 
+  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
+  };
   const [paperYear, setPaperYears] = useState<{[k:string]:number}>({});
   const [paperArea, setPaperAreas] = useState<{[k:string]:number}>({});
   const [paperMatrix, setPaperMatrix] = useState<TPaperMatrix>({VISData:[], VISTags:[], MLTags:[], MLData:[], matrix: []});
 
   const isMenuOpen = Boolean(anchorEl);
   const menuId = "primary-search-account-menu";
+
 
   const fetchData = async (version) => {
     const papers = await fetch(`/assets/${version}.json`).then((res) =>
@@ -205,7 +210,7 @@ export default function App() {
       <div className={classes.root}>
         <CssBaseline />
 
-        <TopBar menuId={menuId} onProfileMenuOpen={onProfileMenuOpen} />
+        <TopBar menuId={menuId} onProfileMenuOpen={onProfileMenuOpen} handleDrawerToggle={handleDrawerToggle}/>
 
         <SideBar
           paperNumber={papersAfterFilter.length}
@@ -217,7 +222,9 @@ export default function App() {
           onSetVersion = {onSetVersion}
           paperYear = {paperYear}
           paperArea={paperArea}
-          paperMatrix = {paperMatrix}
+          paperMatrix={paperMatrix}
+          mobileOpen={mobileOpen}
+          handleDrawerToggle={handleDrawerToggle}
         />
 
         <Papers papers={papersAfterFilter} />

@@ -5,8 +5,10 @@ const drawerWidth = 360;
 export const useStyles = makeStyles((theme: Theme) =>
     createStyles({
         drawer: {
-            width: drawerWidth,
-            flexShrink: 0,
+            [theme.breakpoints.up('sm')]: {
+                width: drawerWidth,
+                flexShrink: 0,
+              },
         },
         drawerPaper: {
             width: drawerWidth,
