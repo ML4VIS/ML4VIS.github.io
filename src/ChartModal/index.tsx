@@ -7,6 +7,7 @@ import {
 import Alert from '@material-ui/lab/Alert';
 
 import { makeStyles } from '@material-ui/core/styles';
+import { BarChartOutlined as ChartIcon } from "@material-ui/icons";
 
 import ReactECharts from 'echarts-for-react';
 
@@ -24,7 +25,9 @@ const useStyles = makeStyles({
       padding: '20px',
     },
     openButton: {
-        margin: '20px'
+        margin: '20px',
+        backgroundColor: 'black',
+        color: 'white'
     },
     flexContainer: {
         display: 'flex',
@@ -312,8 +315,8 @@ export function ChartModal(props: Props) {
   
     return (
     <div>
-      <Button variant="outlined" onClick={handleClickOpen} className={classes.openButton}>
-        Open Summary Dialog
+      <Button variant="outlined" onClick={handleClickOpen} className={classes.openButton} startIcon={<ChartIcon/>}>
+       Open Summary Dialog
       </Button>
       <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" open={open} fullWidth={true} maxWidth='lg'>
         <DialogActions>

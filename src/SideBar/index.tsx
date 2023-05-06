@@ -14,7 +14,7 @@ import {
   Button,
   Hidden,
 } from "@material-ui/core";
-import { Search as SearchIcon } from "@material-ui/icons";
+import { Search as SearchIcon, LaunchOutlined as LaunchIcon } from "@material-ui/icons";
 import Select from '@material-ui/core/Select';
 import { getAvatar } from '../index'
 import { useStyles } from "./style";
@@ -159,7 +159,7 @@ export function SideBar(props: Props) {
 
     <Divider />
     <Button onClick={handleClick}>
-      <span>Other Related Surveys</span>
+      <LaunchIcon/> <span>Other Related Surveys</span>
     </Button>
     <Menu
       open={Boolean(anchorEl)}
