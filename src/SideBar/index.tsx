@@ -193,6 +193,7 @@ export function SideBar(props: Props) {
       </Hidden>
       <Hidden xsDown implementation="css">
         <Drawer
+          className={classes.drawer}
           classes={{
             paper: classes.drawerPaper,
           }}
