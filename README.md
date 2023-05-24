@@ -28,3 +28,8 @@ This interactive survey webpage will continue to be updated to reflect future ad
 Your contribution is highly appreciated!  
 To suggest new related papers,
 please [create an issue using the **Suggest new ML4VIS paper** template](https://github.com/ML4VIS/ML4VIS.github.io/issues/new?assignees=&labels=enhancement&template=suggest-new-ml4vis-papers.md&title=Suggest+Paper%3A+%5Bpaper+title%5D) in this repo.
+
+> **Imposter syndrome disclaimer:** We want your help! There may be a little voice inside your head that is telling you that you're not ready, that you aren't skilled enough to contribute. We assure you that the little voice in your head is wrong. Most importantly, there are many valuable ways to contribute besides writing code.
+>
+> This disclaimer was adapted from the [Pooch](https://github.com/fatiando/pooch) project.
+
