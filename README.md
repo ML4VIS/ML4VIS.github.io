@@ -33,3 +33,11 @@ please [create an issue using the **Suggest new ML4VIS paper** template](https:/
 >
 > This disclaimer was adapted from the [Pooch](https://github.com/fatiando/pooch) project.
 
+### Run the code in your local machine
+make sure you have node.js installed in your computer.
+
+Install dependencies (only needed the first time)
+```npm install```
+
+Run the code
+```npm run dev```
