@@ -1115,108 +1115,10 @@
         "ML": ["Generative"]
     },
     {
-        "name": "A Human Information Processing Theory of the Interpretation of Visualizations: Demonstrating Its Utility",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Insight Communication"],
-        "ML": ["Dimension Reduction"]
-    },
-    {
-        "name": "Make Interaction Situated: Designing User Acceptable Interaction for Situated Visualization in Public Environments",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["User Profiling", "VIS Interaction"],
-        "ML": ["Generative", "Classification"]
-    },
-    {
-        "name": "Card-Based Approach to Engage Exploring Ethics in AI for Data Visualization",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Insight Communication", "User Profiling"],
-        "ML": ["Classification"]
-    },
-    {
-        "name": "DeepSee: Multidimensional Visualizations of Seabed Ecosystems",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Data-VIS Mapping"],
-        "ML": ["Regression"]
-    },
-    {
-        "name": "Discovering Accessible Data Visualizations for People with ADHD",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["User Profiling", "VIS Interaction"],
-        "ML": ["Classification"]
-    },
-    {
-        "name": "Do You See What I See? A Qualitative Study Eliciting High-Level Visualization Comprehension",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Insight Communication", "VIS Reading"],
-        "ML": ["Clustering"]
-    },
-    {
         "name": "DoodleTunes: Interactive Visual Analysis of Music-Inspired Children Doodles with Automated Feature Annotation",
         "venue": "CHI",
         "year": 2024,
-        "VIS": ["Data Processing4VIS"],
+        "VIS": ["VIS Reading"],
         "ML": ["Classification"]
-    },
-    {
-        "name": "Glanceable Data Visualizations for Older Adults: Establishing Thresholds and Examining Disparities Between Age Groups",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["User Profiling"],
-        "ML": ["Classification", "Regression"]
-    },
-    {
-        "name": "MAIDR: Making Statistical Visualizations Accessible with Multimodal Data Representation",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["User Profiling", "VIS Interaction"],
-        "ML": ["Generative"]
-    },
-    {
-        "name": "How Do Low-Vision Individuals Experience Information Visualization?",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Insight Communication", "VIS Reading", "VIS Interaction"],
-        "ML": ["Clustering"]
-    },
-    {
-        "name": "IntentTuner: An Interactive Framework for Integrating Human Intentions in Fine-tuning Text-to-Image Generative Models",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Style Imitation", "User Profiling", "VIS Interaction"],
-        "ML": ["Generative", "Reinforcement"]
-    },
-    {
-        "name": "Table Illustrator: Puzzle-based interactive authoring of plain tables",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Data-VIS Mapping", "Style Imitation"],
-        "ML": ["Classification"]
-    },
-    {
-        "name": "Is It AI or Is It Me? Understanding Users’ Prompt Journey with Text-to-Image Generative AI Tools",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Insight Communication", "VIS Interaction"],
-        "ML": ["Generative"]
-    },
-    {
-        "name": "PromptCharm: Text-to-Image Generation through Multi-modal Prompting and Refinement",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Style Imitation", "VIS Interaction"],
-        "ML": ["Generative", "semi-supervised"]
-    },
-    {
-        "name": "An Accessible, Three-Axis Plotter for Enhancing Calligraphy Learning through Generated Motion",
-        "venue": "CHI",
-        "year": 2024,
-        "VIS": ["Style Imitation", "VIS Interaction"],
-        "ML": ["Generative"]
     }
 ]
