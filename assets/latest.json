@@ -1106,5 +1106,19 @@
         "ML": [
             "Dimension Reduction"
         ]
+    },
+    {
+        "name": "DynaVis: Dynamically Synthesized UI Widgets for Visualization Editing",
+        "venue": "CHI",
+        "year": 2024,
+        "VIS": ["VIS Reading", "VIS Interaction"],
+        "ML": ["Generative"]
+    },
+    {
+        "name": "DoodleTunes: Interactive Visual Analysis of Music-Inspired Children Doodles with Automated Feature Annotation",
+        "venue": "CHI",
+        "year": 2024,
+        "VIS": ["VIS Reading"],
+        "ML": ["Classification"]
     }
 ]
