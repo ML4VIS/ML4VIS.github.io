@@ -1111,14 +1111,46 @@
         "name": "DynaVis: Dynamically Synthesized UI Widgets for Visualization Editing",
         "venue": "CHI",
         "year": 2024,
-        "VIS": ["VIS Reading", "VIS Interaction"],
-        "ML": ["Generative"]
+        "VIS": [
+            "VIS Reading",
+            "VIS Interaction"
+        ],
+        "ML": [
+            "Generative"
+        ]
     },
     {
         "name": "DoodleTunes: Interactive Visual Analysis of Music-Inspired Children Doodles with Automated Feature Annotation",
         "venue": "CHI",
         "year": 2024,
-        "VIS": ["VIS Reading"],
-        "ML": ["Classification"]
+        "VIS": [
+            "VIS Reading"
+        ],
+        "ML": [
+            "Classification"
+        ]
+    },
+    {
+        "name": "LIDA: A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models",
+        "venue": "ACL",
+        "year": 2023,
+        "VIS": [
+            "Data-VIS Mapping",
+            "Style Imitation"
+        ],
+        "ML": [
+            "Generative"
+        ]
+    },
+    {
+        "name": "LLM4Vis: Explainable Visualization Recommendation using ChatGPT",
+        "venue": "EMNLP (industry track)",
+        "year": 2023,
+        "VIS": [
+            "Data-VIS Mapping"
+        ],
+        "ML": [
+            "Generative"
+        ]
     }
 ]
