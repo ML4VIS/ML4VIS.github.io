@@ -1152,5 +1152,18 @@
         "ML": [
             "Generative"
         ]
-    }
+    },
+    {
+        "name": "DashBot: Insight-Driven Dashboard Generation Based on Deep Reinforcement Learning",
+        "venue": "VIS",
+        "year": 2022,
+        "VIS": [
+            "Data-VIS Mapping",
+            "Insight Communication"
+        ],
+        "ML": [
+            "Reinforcement"
+        ]
+    },
+    {}
 ]
