@@ -1176,5 +1176,27 @@
         "ML": [
             "Generative"
         ]
+    },
+    {
+        "name": "Let the Chart Spark: Embedding Semantic Context into Chart with Text-to-Image Generative Model",
+        "venue": "VIS",
+        "year": 2023,
+        "VIS": [
+            "Style Imitation"
+        ],
+        "ML": [
+            "Generative"
+        ]
+    },
+    {
+        "name": "Beyond Numbers: Creating Analogies to Enhance Data Comprehension and Communication with Generative AI",
+        "venue": "CHI",
+        "year": 2024,
+        "VIS": [
+            "Insight Communication"
+        ],
+        "ML": [
+            "Generative"
+        ]
     }
 ]
