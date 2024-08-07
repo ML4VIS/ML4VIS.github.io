@@ -41,3 +41,6 @@ Install dependencies (only needed the first time)
 
 Run the code
 ```npm run dev```
+
+## Use the codebase for hosting your own survey
+We have created a template here https://github.com/Visual-Intelligence-UMN/interactive-survey-template
